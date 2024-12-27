@@ -17,3 +17,7 @@ The following programming languages are supported:
 - [AutoIt](https://www.autoitscript.com/)
 - Visual BASIC for Applications (VBA) / VBScript (VBS) via Windows Script Host (WSH)
 - JScript via Windows Script Host (WSH)
+
+## Component Object Model
+
+The [Component Object Model](https://learn.microsoft.com/en-us/windows/win32/com/component-object-model--com--portal) (COM) is a system for creating binary software components. This system itself is platform-independent, but in reality it is only available on the Windows OS. This is important to know, because we are more or less talking about a native system here.
