@@ -6,7 +6,9 @@ This repository focuses on the use of SAP GUI Scripting with a diversity of prog
 
 ## Scripting Tracker
 
-[Scripting Tracker](https://tracker.stschnell.de/) is a tool for simplifying the use of SAP GUI scripting. It offers an SAP GUI analyzer, scripting recorder for different programming languages, SAP GUI Scripting API viewer, code composer, screen comparator and dump state viewer on SAP GUI Scripting base. The following programming languages are supported:
+[Scripting Tracker](https://tracker.stschnell.de/) is a tool for simplifying the use of SAP GUI scripting. It offers an SAP GUI analyzer, scripting recorder for different programming languages, SAP GUI Scripting API viewer, code composer, screen comparator and dump state viewer on SAP GUI Scripting base.
+
+The following programming languages are supported:
 - PowerShell for .NET Framework and PowerShell .NET Core
 - C# for .NET Core and C# .NET Framework
 - VB.NET Framework
