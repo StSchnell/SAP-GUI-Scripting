@@ -15,5 +15,5 @@ The following programming languages are supported:
 - Python with [PyWin32](https://pypi.org/project/pywin32/)
 - Java via JShell with [JaCoB (Java COM Bridge)](https://github.com/freemansoft/jacob-project)
 - [AutoIt](https://www.autoitscript.com/)
-- Visual BASIC for Applications (VBA) / VBScript (VBS)
-- JScript
+- Visual BASIC for Applications (VBA) / VBScript (VBS) via Windows Script Host (WSH)
+- JScript via Windows Script Host (WSH)
