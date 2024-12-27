@@ -9,7 +9,7 @@ This repository focuses on the use of SAP GUI Scripting with a diversity of prog
 [Scripting Tracker](https://tracker.stschnell.de/) is a tool for simplifying the use of SAP GUI scripting. It offers an SAP GUI analyzer, scripting recorder for different programming languages, SAP GUI Scripting API viewer, code composer, screen comparator and dump state viewer on SAP GUI Scripting base.
 
 The following programming languages are supported:
-- PowerShell for .NET Framework and PowerShell .NET Core
+- PowerShell for .NET Framework and [PowerShell .NET Core](https://github.com/PowerShell/PowerShell)
 - C# for .NET Core and C# .NET Framework
 - VB.NET Framework
 - Python with [PyWin32](https://pypi.org/project/pywin32/)
@@ -21,3 +21,9 @@ The following programming languages are supported:
 ## Component Object Model
 
 The [Component Object Model](https://learn.microsoft.com/en-us/windows/win32/com/component-object-model--com--portal) (COM) is a system for creating binary software components. This system itself is platform-independent, but in reality it is only available on the Windows OS. This is important to know, because we are more or less talking about a native system here.
+
+## Windows Script Host
+
+The Windows Script Host (WSH) offers an environment in which users can execute scripts in various languages. The WSH cannot execute scripts itself, it uses script engines. In the standard the WSH contains the script engines for the programming languages VBScript and JScript. The standard SAP GUI Scripting Recorder records user activities in the VBScript programming language. But in the future VBScript will be an optional component that will be removed step by step from the Windows operating system. Even if many examples are available, it is no longer recommended to use VBScript for future automations. In general, the use of the WSH is no longer recommended.
+
+PowerShell for .NET Framework is available in the standard of the Windows OS. It can be used very well as a replacement for this use case. It also offers many other possibilities and advantages that could never be realized with VBScript. Therefore the clear recommendation to use PowerShell for the automation of the SAP GUI for Windows with SAP GUI Scripting.
