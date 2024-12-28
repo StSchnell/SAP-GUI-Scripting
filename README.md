@@ -12,7 +12,7 @@ The following programming languages are supported:
 - PowerShell for .NET Framework and [PowerShell .NET Core](https://github.com/PowerShell/PowerShell)
 - C# for .NET Core and C# .NET Framework
 - VB.NET Framework
-- Python with [PyWin32](https://pypi.org/project/pywin32/)
+- [Python](https://www.python.org/) with [PyWin32](https://pypi.org/project/pywin32/)
 - Java via JShell with [JaCoB (Java COM Bridge)](https://github.com/freemansoft/jacob-project)
 - [AutoIt](https://www.autoitscript.com/)
 - Visual BASIC for Applications (VBA) / VBScript (VBS) via Windows Script Host (WSH)
@@ -27,3 +27,9 @@ The [Component Object Model](https://learn.microsoft.com/en-us/windows/win32/com
 The Windows Script Host (WSH) offers an environment in which users can execute scripts in various languages. The WSH cannot execute scripts itself, it uses script engines. In the standard the WSH contains the script engines for the programming languages VBScript and JScript. The standard SAP GUI Scripting Recorder records user activities in the VBScript programming language. But in the future VBScript will be an optional component that will be removed step by step from the Windows operating system. Even if many examples are available, it is no longer recommended to use VBScript for future automations. In general, the use of the WSH is no longer recommended.
 
 PowerShell for .NET Framework is available in the standard of the Windows OS. It can be used very well as a replacement for this use case. It also offers many other possibilities and advantages that could never be realized with VBScript. Therefore the clear recommendation to use PowerShell for the automation of the SAP GUI for Windows with SAP GUI Scripting.
+
+## Alternatives
+
+### Python.NET
+
+[Python.NET (pythonnet)](https://pypi.org/project/pythonnet/) offers the possibility to integrate .NET seamlessly into Python programming language. This makes it possible to use COM libraries with Python via .NET, and with that also the SAP GUI Scripting. Here an example how to realize that.
