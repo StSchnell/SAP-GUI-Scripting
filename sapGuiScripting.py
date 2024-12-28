@@ -162,7 +162,7 @@ def main():
         do(session, "wnd[0]", "sendVKey", [3])
 
     except Exception as ex:
-        print("Exception: " + ex + "\n" + ex.__cause__)
+        print("Exception: " + str(ex))
 
     finally:
         setProperty(application, "HistoryEnabled", [False])
