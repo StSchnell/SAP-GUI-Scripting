@@ -36,4 +36,4 @@ PowerShell for .NET Framework is available in the standard of the Windows OS. It
 
 ### JavaScript
 
-JavaScript is a widely used programming language. There are different variants and platforms with which it can be used. [JavaScript via Rhino Engine](https://github.com/mozilla/rhino) is one of them. It bases on Java and with JaCoB (Java COM Bridge) it offers the possibility to use COM seamlessly. Here an [example how to use SAP GUI Scripting via JavaScript with the Rhino engine and JaCoB](https://github.com/StSchnell/SAP-GUI-Scripting/blob/main/sapGuiScripting.js).
+JavaScript is a widely used programming language. There are different variants and platforms with which it can be used. [JavaScript via Rhino Engine](https://github.com/mozilla/rhino) is one of them. It bases on Java and with JaCoB (Java COM Bridge) it offers the possibility to use COM seamlessly. Here a basic [example how to use SAP GUI Scripting via JavaScript with the Rhino engine and JaCoB](https://github.com/StSchnell/SAP-GUI-Scripting/blob/main/sapGuiScripting.js). On this way the functional variety of Java can be combined with COM and the simplicity of JavaScript.
