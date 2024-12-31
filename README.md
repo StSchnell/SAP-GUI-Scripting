@@ -33,3 +33,7 @@ PowerShell for .NET Framework is available in the standard of the Windows OS. It
 ### Python.NET
 
 [Python.NET (pythonnet)](https://pypi.org/project/pythonnet/) offers the possibility to integrate .NET seamlessly into Python programming language. This makes it possible to use COM libraries with Python via .NET, and with that also the SAP GUI Scripting. Here an [example how to use SAP GUI Scripting via Python.NET](https://github.com/StSchnell/SAP-GUI-Scripting/blob/main/sapGuiScripting.py). This approach is a basic example of using COM libraries with Python.NET. It is a real alternative approach if as few Python packages as possible should to be used and other less necessary packages are excluded whose functionality is already available, such the COM interface as in this example.
+
+### JavaScript
+
+JavaScript is a widely used programming language. There are different variants and platforms with which it can be used. [JavaScript via Rhino Engine](https://github.com/mozilla/rhino) is one of them. It bases on Java and with JaCoB (Java COM Bridge) it offers the possibility to use COM seamlessly. Here an [example how to use SAP GUI Scripting via JavaScript with the Rhino engine and JaCoB](https://github.com/StSchnell/SAP-GUI-Scripting/blob/main/sapGuiScripting.js).
