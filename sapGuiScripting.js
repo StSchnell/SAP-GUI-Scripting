@@ -1,17 +1,17 @@
-function main() {
+var jacob = JavaImporter(
+  com.jacob.activeX.ActiveXComponent,
+  com.jacob.com.ComThread,
+  com.jacob.com.Dispatch,
+  com.jacob.com.Variant
+);
 
-  var JaCoB = JavaImporter(
-    com.jacob.activeX.ActiveXComponent,
-    com.jacob.com.ComThread,
-    com.jacob.com.Dispatch,
-    com.jacob.com.Variant
-  );
+function main() {
 
   const OUTPUT_CONSOLE = 0;
   const OUTPUT_WINDOW = 1;
   const OUTPUT_BUFFER = 2;
 
-  with (JaCoB) {
+  with (jacob) {
 
     // Invokes SAP GUI Scripting method
     call = (session, id, name, parameter) => {
@@ -103,7 +103,7 @@ function main() {
     }
 
   }
-
+  
 }
 
 main();
