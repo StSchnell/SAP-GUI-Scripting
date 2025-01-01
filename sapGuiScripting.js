@@ -7,10 +7,6 @@ var jacob = JavaImporter(
 
 function main() {
 
-  const OUTPUT_CONSOLE = 0;
-  const OUTPUT_WINDOW = 1;
-  const OUTPUT_BUFFER = 2;
-
   with (jacob) {
 
     // Invokes SAP GUI Scripting method
