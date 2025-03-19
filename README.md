@@ -4,20 +4,6 @@ SAP GUI Scripting is an interface to the [SAP GUI for Windows](https://help.sap.
 
 This repository focuses on the use of SAP GUI Scripting with a diversity of programming languages. Unusual approaches and examples will be presented here, to demonstrate the integration capabilities.
 
-## Scripting Tracker
-
-[Scripting Tracker](https://tracker.stschnell.de/) is a tool for simplifying the use of SAP GUI scripting. It offers an SAP GUI analyzer, scripting recorder for different programming languages, SAP GUI Scripting API viewer, code composer, screen comparator and dump state viewer on SAP GUI Scripting base.
-
-The following programming languages are supported:
-- PowerShell for .NET Framework and [PowerShell .NET Core](https://github.com/PowerShell/PowerShell)
-- C# for .NET Core and C# .NET Framework
-- VB.NET Framework
-- [Python](https://www.python.org/) with [PyWin32](https://pypi.org/project/pywin32/)
-- Java via JShell with [JaCoB (Java COM Bridge)](https://github.com/freemansoft/jacob-project)
-- [AutoIt](https://www.autoitscript.com/)
-- Visual BASIC for Applications (VBA) / VBScript (VBS) via Windows Script Host (WSH)
-- JScript via Windows Script Host (WSH)
-
 ## Component Object Model
 
 The [Component Object Model](https://learn.microsoft.com/en-us/windows/win32/com/component-object-model--com--portal) (COM) is a system for creating binary software components. This system itself is platform-independent, but in reality it is only available on the Windows OS. This is important to know, because we are more or less talking about a native system here.
